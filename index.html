@@ -3,21 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Snake Game</title>
+  <title>Google-Style Snake Game</title>
   <style>
     body {
+      margin: 0;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      margin: 0;
-      background: #000;
+      background: linear-gradient(90deg, #00C9FF, #92FE9D);
+      font-family: Arial, sans-serif;
     }
     canvas {
-      background: #111;
-      display: block;
-      margin: auto;
+      background: #222;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
       border: 2px solid #fff;
+    }
+    h1 {
+      text-align: center;
+      color: #fff;
     }
   </style>
 </head>
@@ -26,4 +30,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
